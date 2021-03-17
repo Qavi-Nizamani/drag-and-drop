@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  background-color: rgb(230, 225, 225);
+  height: 100vh;
+}
+.whiteBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(248, 244, 238);
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+
+.imgBox {
+  background-image: url(../img/Qaviniz.jpg);
+  background-size: cover;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.hold {
+  border: 2px solid red;
+}
+
+.dashed {
+  background-color: rgb(221, 221, 221);
+  border-style: dashed;
+}
+.hide {
+  display: none;
+}
